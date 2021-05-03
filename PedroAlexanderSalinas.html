@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="./CSS/Estilos.css">
+    <script
+    src="https://kit.fontawesome.com/abdf98a5ec.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <header>
+        <nav class="navegacion">
+          <a class="clase" href="../index.html"><i class="fas fa-users"></i> <strong>Grupo 51</strong></a>
+  
+          <div class="contendio">
+  
+            <div class="in"><a href="PedroAlexanderSalinas_index.html">Historia de la NFL</a></div>
+            <img class="logo" src="./Recursos/Logo.png">
+              <ul class="opciones">
+                <li><a href="PedroAlexanderSalinas_ComoJugar.html"><i class="iconoM fas fa-football-ball"></i>¿Como se juega?</a></li>
+                <li><a href="PedroAlexanderSalinas_Reglas.html"><i class="iconoM fas fa-football-ball"></i>Reglas</a></li>
+                <li><a href="PedroAlexanderSalinas_Equipos.html"><i class="iconoM fas fa-football-ball"></i>Top 5 Equipos</a></li>
+                <li><a href="PedroAlexanderSalinas_MejoresJugadores.html"><i class="iconoM fas fa-football-ball"></i>Mejores jugadores</a></li>
+                <li><a href="PedroAlexanderSalinas.html"><i class="iconoM fas fa-football-ball"></i>Contactanos</a></li>
+              </ul>
+          </div>
+        </nav>
+    </header>
+    <div class="format">
+        <h2 class="muro">Suscribete para mas información de la NFL</h2>
+          <form action="" method="POST" id="form-contacto">
+              <label for="name">Nombre<span class="rojo">*</span> </label>
+              <div><input type="text" name="name" data-validation="alphanumeric"></div>
+              <label for="surname">Apellidos<span class="rojo">*</span></label>
+              <div><input type="text" name="surname" data-validation="alphanumeric"></div>
+              <label>Email<span class="rojo">*</span></label>
+              <div><input type="email" name="email" data-validation="required email"></div>
+              <label for="sex">Sexo<span class="rojo">*</span></label>
+              <div>
+                <select name="sex" data-validation="required">
+                  <option value="men">Hombre</option>
+                  <option value="woman">Mujer</option>
+                </select>
+              </div>
+            
+              
+              <label for="date">Fecha de Nacimiento<span class="rojo">*</span></label>
+              <div><input type="date" name="fecha" id="fecha"></div>
+
+              <figure class="enviar"><input type="submit" value="Enviar"></figure>
+              
+          </form>
+    </div>
+  <footer>
+      <address>
+        <strong>El rincon de la NFL</strong>
+        <div class="icon">
+        <span>
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+          <a href="#"><i class="fab fa-instagram-square"></i></a>
+          <a href="#"><i class="fab fa-whatsapp-square"></i></a>
+        </span>
+        </div>
+      </address>
+  </footer>
+</body>
+</html>
