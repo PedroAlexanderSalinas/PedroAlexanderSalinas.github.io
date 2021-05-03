@@ -1,0 +1,327 @@
+/* Pagina principal */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background: url(../Recursos/Fondo.jpg);
+}
+.contenedor-principal{
+    background-color: #fff;
+    margin: 0px 250px 0px 250px;
+}
+.contendio {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 30px;
+}
+
+.navegacion {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    padding: 12px 0;
+    background: #3f3697;
+    transition: all 0.3s ease;
+    height: 50;
+}
+
+.navegacion .contendio {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.navegacion .opciones{
+    display: inline-flex;
+}
+
+.navegacion .in a{
+    color: #fff !important;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navegacion .logo {
+    position: absolute;
+    width: 80px;
+    border-radius: 80px;
+    left: 300px;
+    top: 20px;
+}
+
+.opciones li a{
+    color: #fff !important;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 35px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    line-height: 20px;
+}
+
+.opciones i{
+    color: brown;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.icon a {
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
+    left: 30px;
+    top: 100px;
+    width: 100px;
+}
+
+.opciones li a:hover{
+    color: cyan;
+}
+
+.clase {
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    margin-left: 15px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+footer{
+    width: 100%;
+    height: 90px;
+    line-height: 30px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 0px;
+    background: #3f3697;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+footer strong {
+    font-size: 30px;
+}
+
+.articulo p{
+    display: block;
+    padding: 10px 50px 10px 50px;
+    text-align: justify;
+}
+
+.articulo img{
+    display: block;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+.t {
+    display: block;
+    padding: 10px 200px 10px 200px;
+    text-align: justify;
+    font-size: 50px;
+    padding-top: 120px !important;
+    padding-bottom: 10px !important;
+}
+
+/* ¿Comó se juega? */
+.fondo {
+    background-color: #fff;
+    margin: 0px 250px 0px 250px;
+}
+
+.Juego aside p{
+    display: block;
+    padding: 10px 50px 10px 50px;
+    text-align: justify;
+}
+
+.video {
+    display: block;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+.ti {
+    display: block;
+    padding: 10px 200px 10px 200px;
+    text-align: justify;
+    font-size: 50px;
+    padding-top: 120px !important;
+    padding-bottom: 10px !important;
+}
+
+/* Reglas */
+.lienzo {
+    background-color: #fff;
+    margin: 0px 250px 0px 250px;
+}
+
+.titulo {
+    display: block;
+    padding: 10px 150px 10px 150px;
+    text-align: justify;
+    font-size: 50px;
+    padding-top: 120px !important;
+    padding-bottom: 10px !important;
+}
+
+.parrafos p{
+    display: block;
+    padding: 10px 50px 10px 50px;
+    text-align: justify;
+}
+
+/* Top 5 Equipos */
+
+.fb {
+    background-color: #fff;
+    margin: 0px 250px 0px 250px;
+}
+
+.prin {
+    display: block;
+    padding: 10px 95px 10px 95px;
+    font-size: 40px;
+    padding-top: 120px !important;
+    padding-bottom: 20px !important;
+}
+
+.fb h2 {
+    display: block;
+    padding: 10px 80px 10px 80px;
+    font-size: 30px;
+}
+
+.fb img {
+    display: block;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+.fb p {
+    display: block;
+    padding: 10px 80px 10px 80px;
+    text-align: justify;
+}
+
+/* Mejores jugadores */
+
+.ult {
+    background-color: #fff;
+    margin: 0px 250px 0px 250px;
+    padding: 0px 10px 0px 10px;
+}
+
+.ult img{
+    display: block;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+.ult ol {
+    display: block;
+    padding: 10px 80px 10px 80px;
+    text-align: justify;
+}
+
+.ult table {
+    display: block;
+    margin: 20px auto;
+    padding-top: 20px;
+    background: #3f3697;
+    text-align: center;
+}
+
+.ult th {
+    background-color: white;
+}
+
+.ult td {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+.ult dt {
+    display: block;
+    padding: 10px 80px 10px 80px;
+    text-align: justify;
+}
+
+.ult dd {
+    display: block;
+    padding: 10px 80px 10px 80px;
+    text-align: justify;
+}
+
+.tt {
+    display: block;
+    padding: 10px 95px 10px 95px;
+    font-size: 40px;
+    padding-top: 120px !important;
+    padding-bottom: 20px !important;
+}
+.lateral {
+    display: block;
+    float: right;
+    background: #fff;
+    border: 2px solid #3f3697;
+    margin-top: 120px;
+    margin-right: 17px;
+    padding: 100px 50px 100px 50px;
+    font-size: 18px;
+}
+
+.lateral strong {
+    color: black;
+}
+
+.lateral li {
+    color: #3f3697;
+}
+
+/* Contactanos */
+
+.format {
+    background-color: #fff;
+    margin: 0px 250px 0px 250px;
+    padding: 10px 80px 10px 80px;
+}
+
+.format div {
+    display: block;
+    padding: 0px 30px 0px 30px;
+    text-align: justify;
+}
+
+.format label {
+    display: block;
+    padding: 0px 30px 0px 30px;
+    text-align: justify;
+    font-size: 18px; 
+}
+.enviar{
+    padding: 10px 80px 10px 80px;
+}
+.muro {
+    display: block;
+    padding: 10px 30px 10px 30px;
+    text-align: justify;
+    font-size: 34px;
+    padding-top: 120px !important;
+    padding-bottom: 24px !important;
+}
+.rojo{
+    color: red;
+}
